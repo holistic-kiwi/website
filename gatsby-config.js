@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/holistickiwi-website",
+  pathPrefix: "/",
   siteMetadata: {
     title: `Holistic Kiwi - Skin & Massage`,
     description: `Holistic Kiwi -100% nz Skin & Massage in delft`,

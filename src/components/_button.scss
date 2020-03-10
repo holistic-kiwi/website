@@ -30,7 +30,13 @@ a.btn.btn-secondary{
   }
 }
 
-
+@media (min-width: 832px) {
+  .page-homepage.section-header .btn{
+    border: 1px solid white;
+    font-size: 20px;
+    padding: 14px 22px;
+  }
+}
 
 
 

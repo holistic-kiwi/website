@@ -3,7 +3,8 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Icon from "../components/Icon"
+import Star from "../components/Icon"
+//import Star from './icns/white/star.svg';
 
 const IndexPage = () => (
   <Layout>
@@ -15,7 +16,7 @@ const IndexPage = () => (
       <div className="content">
         <h1>
           <span className="text-sm">100% New Zealand </span>
-          Skin & Massage Clinic 
+          Skin & Massage Clinic
           <span className="text-sm">in Delft</span>
         </h1>
         <a
@@ -26,6 +27,53 @@ const IndexPage = () => (
           Book Your Treatment Now
         </a>
       </div>
+
+      <div className="ratings-row">
+
+        <div className="rating">
+          <div className="star-row">
+            <div className="star image-star"></div>
+            <div className="star image-star"></div>
+            <div className="star image-star"></div>
+            <div className="star image-star"></div>
+            <div className="star image-star"></div>
+          </div>
+          <div className="brand-row">
+            <div className="brand image-fresha"></div>
+          </div>
+          <p>5,0</p>
+        </div>
+
+        <div className="rating">
+          <div className="star-row">
+            <div className="star image-star"></div>
+            <div className="star image-star"></div>
+            <div className="star image-star"></div>
+            <div className="star image-star"></div>
+            <div className="star image-star"></div>
+          </div>
+          <div className="brand-row">
+            <div className="brand image-treatwell"></div>
+          </div>
+          <p>4,8</p>
+        </div>
+
+        <div className="rating">
+          <div className="star-row">
+            <div className="star image-star"></div>
+            <div className="star image-star"></div>
+            <div className="star image-star"></div>
+            <div className="star image-star"></div>
+            <div className="star image-starhalf"></div>
+          </div>
+          <div className="brand-row">
+            <div className="brand image-google"></div>
+          </div>
+          <p>4,5</p>
+        </div>
+
+      </div>
+
     </header>
 
 

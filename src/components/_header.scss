@@ -25,6 +25,11 @@
 
 .page-homepage.section-header, .section-closer{
   min-height: 580px;
+  .content{
+    @media (min-width: 832px) {
+      margin-top: 190px;
+    }
+  }
 }
 
 .page-homepage.section-header{ //makes header left aligned
@@ -32,4 +37,45 @@
       //align-items: flex-start;
       //text-align: left;
     }
+}
+
+.ratings-row{
+  //background-color: blue;
+
+  display: none;
+  justify-content: space-between;
+  width: 754px;
+  margin: 160px auto 90px;
+  @media (min-width: 832px) {
+    display: flex;
+  }
+  .rating{
+    //background-color: red;
+    width: 112px;
+    height: 87px;
+    .star-row{
+      display: flex;
+      justify-content: center;
+      .star{
+        padding: 4px;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    }
+    .brand-row{
+      display: flex;
+      justify-content: center;
+      .brand{
+        padding: 4px;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    }
+    p{
+      font-size: 14px;
+      font-weight: 600;
+      font-family: $font-header;
+      text-align: center;
+    }
+  }
 }

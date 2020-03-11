@@ -35,7 +35,7 @@ const IndexPage = () => (
           We don’t work with set routines. Instead, we mix and match different techniques and styles to give you the most effective massages around.
         </p>
         <p>
-          Depending on your goal, we offer  Relaxation Massage for the mind & mild body aches, or Theraputic Massage for pain and muscle health.
+          Depending on your goal, we offer  Relaxation Massage for the mind & mild body aches, or Therapeutic Massage for pain and muscle health.
         </p>
         <p>
           If you have a specific goal, we recommend you book 75 minutes for your first intake and massage.
@@ -48,7 +48,7 @@ const IndexPage = () => (
       <div className="treatment">
         <div className="content">
           <div className="description">
-            <h3>Theraputic massage</h3>
+            <h3>Therapeutic massage</h3>
             <p>
             These are massages are firm-hard with a focus on releasing built up pain and tension while improving flexibility.
             </p>
@@ -56,7 +56,7 @@ const IndexPage = () => (
             The muscular-skeletal system is inter connected, so often when you have an injury or ongoing pain, other areas of the body are affected as well.
             </p>
             <p>
-            Theraputic massages at Holistic Kiwi are designed to ensure all areas of pain and stress relating to your issues are addressed.
+            Therapeutic massages at Holistic Kiwi are designed to ensure all areas of pain and stress relating to your issues are addressed.
             </p>
             <a
               className="btn btn-primary"

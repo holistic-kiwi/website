@@ -2,8 +2,54 @@
 
 
 
+// .card-container{
+//   //background-color: blue;
+//   display: flex;
+//   justify-content: center;
+//   flex-wrap: wrap;
+//   margin-top: 64px;
+//   margin-left: -16px;
+//   margin-right: -16px;
+//   > a{
+//     position: relative;
+//     margin: 16px;
+//     color: $white;
+//     @media (min-width: 576px) {max-width: calc(50% - 32px);}
+//   //@media (min-width: 768px) {max-width: calc(33.3% - 32px);}
+//     @media (min-width: 992px) {
+//       width: calc(25% - 32px);
+//       max-width:280px;
+//    }
+//
+//     h4{
+//       padding-top: 16px;
+//     }
+//     &:hover{
+//       h4{
+//         text-decoration: underline;
+//       }
+//       .card-image{
+//         opacity: .9;
+//       }
+//     }
+//   }
+// }
+
+// //card images
+// .card-image{
+//   width: 100%;
+//   height: 220px;
+//   background-size: cover;
+//   background-position: center;
+//   h3{
+//     color: $white;
+//     text-align: center;
+//     padding-top: 44px;
+//   }
+// }
+
+//card position
 .card-container{
-  //background-color: blue;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -13,25 +59,34 @@
   > a{
     position: relative;
     margin: 16px;
-    color: $white;
     @media (min-width: 576px) {max-width: calc(50% - 32px);}
   //@media (min-width: 768px) {max-width: calc(33.3% - 32px);}
     @media (min-width: 992px) {
       width: calc(25% - 32px);
       max-width:280px;
    }
+ }
+}
 
-    h4{
-      padding-top: 16px;
-    }
-    &:hover{
-      h4{
-        text-decoration: underline;
-      }
-      .card-image{
-        opacity: .9;
-      }
-    }
+.card-container a{
+  background-color: $white;
+  text-align: left;
+  border-radius: 6px;
+  box-shadow: 0 7px 15px -1px rgba(0,0,0,0.10);
+  overflow: hidden;
+  h4, p{
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  h4{
+    padding-top: 12px;
+    color: $brand-active;
+  }
+  p{
+    color: $text-color-secondary;
+  }
+  .card-image{
+    h3{display: none;}
   }
 }
 
@@ -40,7 +95,7 @@
 //card images
 .card-image{
   width: 100%;
-  height: 220px;
+  height: 170px;
   background-size: cover;
   background-position: center;
   h3{

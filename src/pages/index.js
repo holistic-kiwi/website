@@ -77,7 +77,7 @@ const IndexPage = () => (
     </header>
 
 
-    <main className="page-homepage section-cardselection colorscheme-purple">
+    <main className="page-homepage section-cardselection colorscheme-light">
 
       <h2>How can we help you?</h2>
       <div className="card-container">

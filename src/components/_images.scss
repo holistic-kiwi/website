@@ -69,34 +69,47 @@
   background-position: left;
 }
 
-//card images
+//card header images
+.section-header{
+  &.image-massage{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)),
+                      url('../images/img/yoannboyer-water.jpg');
+  }
+  &.image-skincare{
+    //background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)),
+                      //url('../images/img/nathandumlao-skin.jpg');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)),
+                      url('../images/img/chermiti-freckle.jpg');
+  }
+  &.image-waxing{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)),
+                      url('../images/img/avasol-flowers.jpg');
+  }
+  &.image-booking{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)),
+                      url('../images/img/jeshoots-notebook.jpg');
+  }
+  &.image-about, .image-contact{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)),
+                      url('../images/img/indebuurt-chair.jpg');
+  }
+}
+
+// card images in card
 .image-massage{
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)),
-                    url('../images/img/yoannboyer-water.jpg');
+  background-image:  url('../images/img/yoannboyer-water.jpg');
 }
-
 .image-skincare{
-  //background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)),
-                    //url('../images/img/nathandumlao-skin.jpg');
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)),
-                    url('../images/img/chermiti-freckle.jpg');
+  background-image: url('../images/img/chermiti-freckle.jpg');
 }
-
-
-
 .image-waxing{
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)),
-                    url('../images/img/avasol-flowers.jpg');
+  background-image: url('../images/img/avasol-flowers.jpg');
 }
-
 .image-booking{
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)),
-                    url('../images/img/jeshoots-notebook.jpg');
+  background-image: url('../images/img/jeshoots-notebook.jpg');
 }
-
 .image-about, .image-contact{
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)),
-                    url('../images/img/indebuurt-chair.jpg');
+  background-image: url('../images/img/indebuurt-chair.jpg');
 }
 
 // svgs

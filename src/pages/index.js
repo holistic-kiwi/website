@@ -90,6 +90,7 @@ const IndexPage = () => (
             <p>
             Get a massage from a fully qualified therapist and feel the difference! We customise our massages to ensure we address your concerns.
             </p>
+            <p className="card-cta">View Treatments</p>
 
         </Link>
 
@@ -101,6 +102,7 @@ const IndexPage = () => (
             <p>
             We specialise in Sensitive and Ethnic promblematic skin.  For Acne fighters; we are covered by most health insurances.
             </p>
+            <p className="card-cta">View Treatments</p>
 
         </Link>
 
@@ -115,6 +117,7 @@ const IndexPage = () => (
             <p>
             At Holistic Kiwi, we minimise the chance of ingrown hairs with our professional hygiene, techniques and care for the skin.
             </p>
+            <p className="card-cta">View Treatments</p>
         </Link>
 
 
@@ -127,6 +130,7 @@ const IndexPage = () => (
             <p>
             Use our intuative booking system to find an appointment time that suites you.
             </p>
+            <p className="card-cta card-cta-booking">Place Booking</p>
         </a>
       </div>
     </main>

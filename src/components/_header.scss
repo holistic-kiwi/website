@@ -10,7 +10,7 @@
   flex-direction: column;
   justify-content: center;
   padding: 0 32px;
-  min-height: 580px;
+  min-height: 440px;
 
   .content{
     display: flex;
@@ -25,6 +25,7 @@
 }
 
 .page-homepage.section-header{
+    min-height: 580px;
   .content{
     @media (min-width: 832px) {
       margin-top: 190px;

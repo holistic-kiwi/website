@@ -106,7 +106,7 @@ html{
 .section-image-right, .section-image-left{
   display: flex;
   flex-direction: row-reverse;
-  padding: 32px 32px;
+  padding: 160px 32px;
   .content{
     width: 100%;
     @media (min-width: 768px) {
@@ -230,6 +230,7 @@ html{
     }
     p{
       font-size: 12px;
+      padding-bottom: 0px;
     }
   }
   .stat + .stat{
@@ -237,6 +238,9 @@ html{
   }
 }
 
+a + .stat-row{
+  margin-top: 64px;
+}
 
 
 

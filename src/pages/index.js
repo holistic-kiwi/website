@@ -128,7 +128,7 @@ const IndexPage = () => (
             </div>
             <h4>Place Booking</h4>
             <p>
-            Use our intuative booking system to find an appointment time that suites you.
+            Use our intuitive booking system to find an appointment time that suites you.
             </p>
             <p className="card-cta card-cta-booking">Place Booking</p>
         </a>
@@ -139,9 +139,13 @@ const IndexPage = () => (
       <div className="content">
         <h3>About us</h3>
         <p>
+        At Holistic Kiwi we believe that everyone should be able to have access to quality skin care and massages.<br />
+        Thats why we offer massages and skin treatments that meet the highest international standards.
+        </p>
+        <p className="displaynone">
         Holistic Kiwi was started in 2016 with the goal of creating a safe space to help those with ongoing skin issues such as Rosacea, Acne, Dermatitis/Eczema & Psoriasis.
         </p>
-        <p>
+        <p className="displaynone">
         We provide high quality Massage Therapy for ongoing aches and pains. This includes reducing symptoms of Frozen Shoulders and Fibromyalgia as well as office and sports injuries!
         </p>
         <Link className="btn btn-secondary"to="/about-us"> Read more </Link>

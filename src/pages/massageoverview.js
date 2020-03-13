@@ -50,7 +50,7 @@ const IndexPage = () => (
           <div className="description">
             <h3>Therapeutic massage</h3>
             <p>
-            These are massages are firm-hard with a focus on releasing built up pain and tension while improving flexibility.
+            These massages are firm-hard with a focus on releasing built up pain and tension while improving flexibility.
             </p>
             <p>
             The muscular-skeletal system is inter connected, so often when you have an injury or ongoing pain, other areas of the body are affected as well.

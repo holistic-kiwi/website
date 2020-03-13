@@ -32,10 +32,10 @@ const IndexPage = () => (
         Lycon is an all natural, latex free wax that makes for a smooth and (almost) painless hair removal experience!
         </p>
         <p>
-        Hairs are removed by the root (minimizing that annoying feeling of stuble) and skin is left nourished and undamaged. We use antibacterial Manuka products to help soothe and heal the skin before and after wax treatment.
+        Hairs are removed by the root (minimizing that annoying feeling of stubble) and skin is left nourished and undamaged. We use antibacterial Manuka products to help soothe and heal the skin before and after wax treatment.
         </p>
         <p>
-        It is made in Australia, not New Zealand, but we can't hold that agaisnt it! There is nothing on the market that can complete with Lycon's gentle yet effective hair removal.
+        It is made in Australia, not New Zealand, but we can't hold that against it! There is nothing on the market that can compete with Lycon's gentle yet effective hair removal.
         </p>
         <p>
         Our highly trained therapists use techniques that make waxing close to painless, and help you with any ongoing issues with ingrown hairs.
@@ -93,7 +93,7 @@ const IndexPage = () => (
           <div className="description">
             <h3>Strip Wax</h3>
             <p>
-              The more common of the waxing treatments, strip wax is used on larger area's with finer hair growth.
+              The more common of the waxing treatments. Strip wax is used on larger area's with finer hair growth.
             </p>
             <p>
               It is heated at a lower temperature, and is now days usually applied by a heated canister with a rolling head. It is then removed by fine strips of material or paper.

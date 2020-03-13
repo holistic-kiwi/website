@@ -140,7 +140,7 @@ const IndexPage = () => (
         <h3>About us</h3>
         <p>
         At Holistic Kiwi we believe that everyone should be able to have access to quality skin care and massages.<br />
-        Thats why we offer massages and skin treatments that meet the highest international standards.
+        That's why we offer massages and skin treatments that meet the highest international standards.
         </p>
         <p className="displaynone">
         Holistic Kiwi was started in 2016 with the goal of creating a safe space to help those with ongoing skin issues such as Rosacea, Acne, Dermatitis/Eczema & Psoriasis.

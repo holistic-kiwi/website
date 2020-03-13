@@ -121,15 +121,15 @@ const IndexPage = () => (
       <div className="treatment">
         <div className="content">
           <div className="description">
-            <h3>Microdermabrassion</h3>
+            <h3>Microdermabrasion</h3>
             <p>
-              Make your skin feel brand new with our gentle diamond microdermabraion machine!
+              Make your skin feel brand new with our gentle diamond microdermabrasion machine!
             </p>
             <p>
-              It removes built up dead skin cells and congestion, Minimizes scarring and fine lines, as well as stimulating circulation of blood and lymph vessels.
+              It removes built up dead skin cells and congestion, minimizes scarring and fine lines, as well as stimulating circulation of blood and lymph vessels.
             </p>
             <p>
-              Followed by an intenstive hydration treatment from our Manuka mask, and Ultrasound machine, skin is left soft and smoothe like a baby!
+              Followed by an intenstive hydration treatment from our Manuka mask, and Ultrasound machine, skin is left soft and smooth like a baby!
             </p>
             <a
               className="btn btn-primary"
@@ -177,7 +177,7 @@ const IndexPage = () => (
              Don't let Rosacea, Dermatitis/Eczema or Psoriasis hold you back! Our qualified therapists specialise in helping you restore you skin's health.
             </p>
             <p>
-             We have special, frangrance free products designed for these skin conditions! We also help your recovery by helping you reduce inflamation and strengthen your Autoimmune System.
+             We have special, fragrance-free products designed for these skin conditions! We also help your recovery by helping you reduce inflamation and strengthen your Autoimmune System.
             </p>
             <a
               className="btn btn-primary"

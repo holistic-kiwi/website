@@ -3,10 +3,14 @@ import PropTypes from "prop-types"
 import React from "react"
 
 
+
 const Navigation = ({ siteTitle, path }) => (
-  <nav className="topnav">
+  <>
+  <nav className="topnav js_sidenav-open">
     <div className="topnav-left">
+      <button className="js_opensidenav">O</button>
       <Link className="sitetitle" to="/">{siteTitle}</Link>
+
     </div>
     <div className="topnav-right">
 
@@ -28,6 +32,33 @@ const Navigation = ({ siteTitle, path }) => (
 
     </div>
   </nav>
+
+  <nav className="sidenav">
+    <button className="js_closesidenav">close</button>
+    <div className="mainnav">
+    <Link className="" to="/">Home</Link>
+      <Link className="" to="/massageoverview">Massages</Link>
+      <Link className="" to="/skintreatmentoverview">Skin Treatments</Link>
+      <Link className="" to="/waxoverview">Waxing</Link>
+
+    </div>
+    <div className="subnav">
+      <Link className="" to="/about-us">About us</Link>
+      <Link className="" to="/contact">Contact</Link>
+    </div>
+
+    <a
+      className="btn btn-primary"
+      href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f"
+      type="button"
+    >
+      Book Now
+    </a>
+  </nav>
+
+
+
+</>
 )
 
 Navigation.propTypes = {

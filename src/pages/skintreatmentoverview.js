@@ -38,10 +38,10 @@ const IndexPage = () => (
             We specialise in Sensitive and Ethnic skin issues. Our therapists can help you debunk myths from facts (YES, dark complexions ARE at risk of sunburn and skin cancer) as well as advise you of diet and lifestyle changes that may help fast track visible results.
           </p>
           <p>
-            Feel confident that you’ll receive the correct Facial for your skin, as well as advice on how to care for your skin for best results. At Holistic Kiwi, we refuse to push sales. We recomend you purchase products AFTER you have tried the samples at home!
+            Feel confident that you’ll receive the correct Facial for your skin, as well as advice on how to care for your skin for best results. At Holistic Kiwi, we refuse to push sales. We recommend you purchase products AFTER you have tried the samples at home!
           </p>
           <p>
-            If you have a specific goal, we recomend you book a minimum of 75 minutes for your first intake and Facial treatment.
+            If you have a specific goal, we recommend you book a minimum of 75 minutes for your first intake and Facial treatment.
           </p>
         </div>
       </div>

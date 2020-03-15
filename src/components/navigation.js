@@ -1,6 +1,10 @@
 import { Link } from "gatsby"
 import React, { useState, useCallback } from "react"
 
+//import logo from './icns/white/medical-notes.svg';
+import hamburger from "../images/icns/white/hamburger.svg"
+import close from "../images/icns/primary/close.svg"
+
 const Navigation = ({ siteTitle, path }) => {
   const [open, setOpen] = useState(false)
   const toggle = useCallback(() => setOpen(!open))
@@ -10,8 +14,8 @@ const Navigation = ({ siteTitle, path }) => {
     <>
       <nav className="topnav">
         <div className="topnav-left">
-          <button className="js_closesidenav" onClick={toggle}>
-            O
+          <button onClick={toggle}>
+            <img src={hamburger} className="icn" alt="open sidenav" />
           </button>
           <Link className="sitetitle" to="/">
             {siteTitle}
@@ -47,9 +51,11 @@ const Navigation = ({ siteTitle, path }) => {
       </nav>
 
       <nav className={`sidenav ${open ? "js_sidenav-open" : ""}`}>
-        <button className="js_closesidenav" onClick={toggle}>
-          close
+        <div className="sidenav-header">
+        <button onClick={toggle}>
+          <img src={close} className="icn" alt="close sidenav" />
         </button>
+        </div>
         <div className="mainnav">
           <Link className="" to="/">
             Home

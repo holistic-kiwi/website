@@ -7,18 +7,40 @@
   display: flex;
   position: fixed;
   align-items: center;
+  justify-content: space-between;
 
-  width: 100%;
+  width: calc(100% - 24px);
   height: 48px;
-  padding: 0 8px;
+  padding: 0 16px 0 8px;
   z-index: 50;
+
   .topnav-left{
     display: contents;
   }
-  .topnav-right, .sitetitle{
+  .topnav-right{
       display: none;
   }
+  a, a:hover{
+    display: block;
+    color: $white;
+    padding: 18px 0;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  a.sitetitle{
+    display: block;
+    margin-left: 48px;
+    &:before{ //adds HK logo
+      content: "";
+      margin-left: -48px;
+      width: 40px;
+      height: 25px;
+      position: absolute;
+      background-image: url('../images/icns/white/holistic-kiwi-logo-white.svg');
+    }
+  }
 }
+
 
 .sidenav{
   position: fixed;
@@ -90,18 +112,18 @@
     .js_opensidenav{
       display: none;
     }
-    a.sitetitle{
-      display: block;
-      margin-left: 48px;
-      &:before{ //adds HK logo
-        content: "";
-        margin-left: -48px;
-        width: 40px;
-        height: 25px;
-        position: absolute;
-        background-image: url('../images/icns/white/holistic-kiwi-logo-white.svg');
-      }
-    }
+    // a.sitetitle{
+    //   display: block;
+    //   margin-left: 48px;
+    //   &:before{ //adds HK logo
+    //     content: "";
+    //     margin-left: -48px;
+    //     width: 40px;
+    //     height: 25px;
+    //     position: absolute;
+    //     background-image: url('../images/icns/white/holistic-kiwi-logo-white.svg');
+    //   }
+    // }
     .topnav-right, .topnav-left{
       display: flex;
       align-items: center;

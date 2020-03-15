@@ -9,7 +9,8 @@
   align-items: center;
 
   width: 100%;
-  height: 40px;
+  height: 48px;
+  padding: 0 8px;
   z-index: 50;
   .topnav-left{
     display: contents;
@@ -45,7 +46,7 @@
     display: flex;
     //background-color: red;
     justify-content: flex-end;
-    padding: 16px 16px 0;
+    padding: 8px 16px 0;
   }
   .mainnav{
     padding: 0px 32px 16px;

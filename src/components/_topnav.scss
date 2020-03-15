@@ -25,6 +25,7 @@
   left: -350px;
   width: 300px;
   box-shadow: 7px 0 15px rgba(0,0,0,0.5);
+  transition: all 0.3s ease-out;
   a, a:hover{
     display: block;
     color: rgba($text-color, 0.5);

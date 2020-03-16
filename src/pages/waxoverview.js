@@ -50,7 +50,7 @@ const IndexPage = () => (
           <div className="description">
             <h3>Hot Wax</h3>
             <p>
-              Used for the more sensitive areas of the body, hot wax is heated warmer than traditional strip wax, allowing it to relax the hair follicle and remove stubborn hair with ease!
+              Used for the more sensitive areas of the body, Hot wax is heated at a slightly higher temperature than traditional strip wax. It is applied directly to the skin, allowing it to relax the hair follicle and remove stubborn hair with ease!
             </p>
             <p>
             At Holistic Kiwi, we take special measures for hygiene and skin protection to ensure your intimate area's stay healthy and beautiful.
@@ -93,10 +93,10 @@ const IndexPage = () => (
           <div className="description">
             <h3>Strip Wax</h3>
             <p>
-              The more common of the waxing treatments. Strip wax is used on larger area's with finer hair growth.
+              We use this type of wax on larger, less intimate surface area's with finer hair growth.
             </p>
             <p>
-              It is heated at a lower temperature, and is now days usually applied by a heated canister with a rolling head. It is then removed by fine strips of material or paper.
+              Strip wax is heated at a lower temperature than hot wax, and is applied by a heated roller. It is then removed by fine strips of material or paper.
             </p>
             <a
               className="btn btn-primary"

@@ -8,7 +8,7 @@ import close from "../images/icns/primary/close.svg"
 const Navigation = ({ siteTitle, path }) => {
   const [open, setOpen] = useState(false)
   const toggle = useCallback(() => setOpen(!open))
-  
+
 
   console.log("render", open)
   return (
@@ -75,6 +75,9 @@ const Navigation = ({ siteTitle, path }) => {
           <Link className="" to="/about-us">
             About us
           </Link>
+          <a className="" href="https://holistickiwishop.com/">
+            Webshop
+          </a>
           <Link className="" to="/contact">
             Contact
           </Link>

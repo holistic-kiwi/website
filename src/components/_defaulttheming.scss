@@ -295,6 +295,33 @@ a + .stat-row{
 }
 
 
+////////////////////////////////////////
+// Campaign
+////////////////////////////////////////
+.campaignwrap{
+  .section-info{
+    text-align: center;
+    padding: 120px 32px;
+    @media (min-width: 576px) {
+      h4{
+        font-size: 20px;
+      }
+      p{
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+/////////////////
 /*
 // Section Theming
 @mixin baseSection {

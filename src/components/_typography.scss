@@ -84,6 +84,84 @@ a + h4{
   padding-top: 32px;
 }
 
+.text-sm{
+  font-size: 14px;
+}
+
+.text-strike{
+  text-decoration: line-through;
+}
+
+
+
+////////////////////////////////////////
+// Campaign cards
+////////////////////////////////////////
+
+//fonts
+.campaignwrap, .campaignwrap a.card{
+  h1, h2{
+    line-height: 40px;
+  }
+  h3, h4, h4, p{
+    line-height: 24px;
+  }
+  h1{ //header main text
+    font-family: $font-header;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+  }
+  h2{ //header subtext
+    font-family: $font-header;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  @media (min-width: 576px) {
+    h1{ //header main text
+      font-family: $font-header;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 80px;
+      line-height: 100px;
+    }
+    h2{ //header subtext
+      font-family: $font-header;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 64px;
+    }
+  }
+  h3{
+    font-family: $font-header;
+    font-weight: 700;
+    //text-shadow: 0 1px 0px rgba(0,0,0,0.5);
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #2A292D;
+  }
+  h4{
+    font-family: $font-header;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgba(42, 41, 45, 0.4);
+  }
+  p{
+    //font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #2A292D;
+  }
+}
+
+
+
+
+
 //tables
 
 

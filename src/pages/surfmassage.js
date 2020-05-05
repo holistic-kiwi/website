@@ -1,11 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
 
-//import Layout from "../components/layout"
+//import Layout from "../components/layout_campaign"
 import SEO from "../components/seo"
 import Icon from "../components/Icon"
+import "../components/layout.scss"
 
 const IndexPage = () => (
+
   <div className="campaignwrap">
     <SEO title="Surf Massage"/>
 
@@ -120,6 +122,7 @@ const IndexPage = () => (
 
 
   </div>
+
 )
 
 export default IndexPage

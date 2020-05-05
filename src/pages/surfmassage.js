@@ -80,7 +80,7 @@ const IndexPage = () => (
           </a>
       </a>
 
-      <Link to="/" className="primary card" >
+      <a className="primary card" href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f">
           <div className="card-image  image-surfcampaign-burns"></div>
           <h4>Common Surf Injury</h4>
           <h3>Skin Irritation & Burns</h3>
@@ -93,7 +93,7 @@ const IndexPage = () => (
           <a className="btn" href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f">
             Book your surf massage
           </a>
-      </Link>
+      </a>
 
       </div>
     </main>

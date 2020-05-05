@@ -51,9 +51,9 @@ const IndexPage = () => (
           <p>
             Whether it was a bad pop-up, wipe-out or previous injury, our qualified therapists pin-point the issue and help you to prevent it from happening again.
           </p>
-          <a className="btn" href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f">
+          <p className="btn" href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f">
             Book your surf massage
-          </a>
+          </p>
       </a>
 
       <a className="primary card" href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f">
@@ -63,9 +63,9 @@ const IndexPage = () => (
           <p>
             As surfers, we use our shoulders for everything. Holistic Kiwi specialize in rotator cuff injuries, and will help to restore your mobility and reduce pain.
           </p>
-          <a className="btn" href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f">
+          <p className="btn" href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f">
             Book your surf massage
-          </a>
+          </p>
       </a>
 
       <a className="primary card" href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f">
@@ -75,9 +75,9 @@ const IndexPage = () => (
           <p>
             Bad wipe-outs can require a lot of work before getting waves again. Concusions & whip-lash need to be handled carefully, and the whole body is usually affected.
           </p>
-          <a className="btn" href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f">
+          <p className="btn" href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f">
             Book your surf massage
-          </a>
+          </p>
       </a>
 
       <a className="primary card" href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f">
@@ -90,9 +90,9 @@ const IndexPage = () => (
           <p>
             Holistic Kiwi offer nourishing skin treatments and have natural, ocean friendly products to help soothe, heal and protect.
           </p>
-          <a className="btn" href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f">
+          <p className="btn" href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f">
             Book your surf massage
-          </a>
+          </p>
       </a>
 
       </div>

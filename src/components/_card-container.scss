@@ -126,7 +126,7 @@
           //padding-bottom: 32px;
         }
       }
-      a.btn{
+      p.btn{
         margin: 32px 32px 0;
         text-align: center;
         width: auto;
@@ -139,6 +139,10 @@
         background: linear-gradient(101.03deg, #50D844 0%, #2DA56B 102.92%);
         background-color: #4AA52D;
         border: none;
+
+        color: $white;
+        text-decoration: none;
+        font-weight: 600;
       }
       a.btn.btn-active{
         background-color: $brand-active;
@@ -175,7 +179,7 @@
             padding-bottom: 32px;
           }
         }
-        a.btn{
+        p.btn{
           padding: 20px 32px;
           margin-top: auto;
           margin-left: -32px;

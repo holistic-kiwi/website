@@ -5,10 +5,11 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Star from "../components/Icon"
 //import Star from './icns/white/star.svg';
+//import { useStaticQuery, graphql } from "gatsby"
 
 const IndexPage = () => (
   <Layout>
-    <SEO />
+    <SEO description="100% New Zealand - Skin & Massage Clinic - In Delft. Massages and Skin Treatments that meet the highest international standards. Visit us if you have Sensitive, Ethnic or Promblematic skin, or are in need of a massage." />
 
 
 

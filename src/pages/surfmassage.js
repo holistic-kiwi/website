@@ -9,7 +9,7 @@ import "../components/layout.scss"
 const IndexPage = () => (
 
   <div className="campaignwrap">
-    <SEO title="Surf Massage"/>
+    <SEO title="Surf Massage" description="Are you suffering from surf related injuries? We have massages customized for getting you back in the sea. Book your Surf Massage Today"/ >
 
     <header className="section-header image-surfcampaign-header">
       <div className="content">

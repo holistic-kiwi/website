@@ -19,6 +19,7 @@ function SEO({ description, lang, meta, title }) {
             title
             description
             author
+
           }
         }
       }
@@ -52,6 +53,10 @@ function SEO({ description, lang, meta, title }) {
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: `ogImage`,
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },
@@ -76,6 +81,7 @@ SEO.defaultProps = {
   lang: `en`,
   meta: [],
   description: ``,
+
 }
 
 SEO.propTypes = {

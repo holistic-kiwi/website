@@ -14,7 +14,7 @@ const NotFoundPage = () => (
 
       <a
       className="btn btn-primary"
-      href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f"
+      href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f/"
       type="button"
       >
         Book Now

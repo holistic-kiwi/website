@@ -43,7 +43,7 @@ const Navigation = ({ siteTitle, path }) => {
           </a>
           <a
             className="btn btn-primary"
-            href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f"
+            href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f/"
             type="button"
           >
             Book Now
@@ -85,7 +85,7 @@ const Navigation = ({ siteTitle, path }) => {
 
         <a
           className="btn btn-primary"
-          href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f"
+          href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f/"
           type="button"
         >
           Book Now

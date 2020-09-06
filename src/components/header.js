@@ -2,7 +2,7 @@ import React from "react"
 import Icon from './Icon';
 import PropTypes from 'prop-types'
 
-const Header = ({ title, parent, icon='medical-notes',nbreadcrumb, bookLink='https://www.fresha.com/providers/holistic-kiwi-agx16c7f' }) => {
+const Header = ({ title, parent, icon='medical-notes',nbreadcrumb, bookLink='https://www.fresha.com/providers/holistic-kiwi-agx16c7f/' }) => {
   return (
     <header className="header">
       <div className="headercontent">

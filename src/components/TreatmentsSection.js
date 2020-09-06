@@ -33,7 +33,7 @@ export const TreatmentCard = ({
   mostpopular,
   duration,
   name,
-  link = "https://www.fresha.com/providers/holistic-kiwi-agx16c7f",
+  link = "https://www.fresha.com/providers/holistic-kiwi-agx16c7f/",
 }) => (
   <Link className={mostpopular && "mostpopular"} to="/massages">
     <h3>{name}</h3>

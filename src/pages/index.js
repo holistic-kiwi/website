@@ -21,7 +21,7 @@ const IndexPage = () => (
         </h1>
         <a
           className="btn btn-primary"
-          href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f"
+          href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f/"
           type="button"
         >
           Book Your Treatment Now
@@ -121,7 +121,7 @@ const IndexPage = () => (
         </Link>
 
 
-        <a className="primary" href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f">
+        <a className="primary" href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f/">
 
             <div className="card-image image-booking">
               <h3>Place<br/>Booking</h3>
@@ -182,7 +182,7 @@ const IndexPage = () => (
         </h1>
         <a
           className="btn btn-primary"
-          href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f"
+          href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f/"
           type="button"
         >
           Book Your Treatment Now
